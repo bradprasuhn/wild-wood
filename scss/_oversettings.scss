@@ -1,0 +1,96 @@
+//
+// FOUNDATION SETTINGS OVERRIDDEN
+//
+
+// This is the default html and body font-size for the base rem value.
+$rem-base: 16px;
+
+// Allows the use of rem-calc() or lower-bound() in your settings
+@import "foundation/functions";
+
+
+$body-font-family: 'Gudea', sans-serif;
+
+// We use these as default colors throughout
+$primary-color: $bravo-red;
+
+
+//
+// Forms
+//
+
+$input-bg-color: none;
+$input-focus-bg-color: none;
+$input-border-color: $bravo-red;
+$input-focus-border-color: scale-color($bravo-red, $lightness: 10%);
+
+
+//
+// Magellan
+//
+
+$magellan-bg: rgba( #fff, .8 );
+
+//
+// Orbit
+//
+
+$orbit-nav-arrow-color: $bravo-red;
+$orbit-nav-arrow-color-hover: $bravo-red;
+$orbit-timer-show-progress-bar: false;
+
+
+//
+// Reveal
+//
+
+$reveal-modal-bg: #efefef;
+
+//
+// TABS
+//
+
+$tabs-navigation-padding: rem-calc(25);
+$tabs-navigation-bg-color: none;
+$tabs-navigation-active-bg-color: none;
+$tabs-navigation-hover-bg-color: none;
+$tabs-navigation-font-color: #444;
+$tabs-navigation-font-size: rem-calc(50);
+
+//
+// TOP BAR
+//
+
+// Background color for the top bar
+$topbar-bg-color: $notwhite;
+
+
+// Height and margin
+$topbar-height: 60px;
+
+// Set the link colors and styles for top-level nav
+$topbar-link-color: #333;
+//$topbar-link-color-hover: $bravo-red;
+
+$topbar-link-font-size: rem-calc(26);
+$topbar-link-bg-hover: $notwhite;
+
+//
+// TYPOGRAPHY
+//
+
+// We use these to control header font styles
+$header-font-family: 'chunkfiveroman', serif;
+$header-font-weight: 100;
+$header-top-margin: .5rem;
+
+// We use these to control header font sizes
+$h1-font-size: rem-calc(40);
+
+$paragraph-font-size: 1.25rem;
+$paragraph-line-height: 1.3;
+
+// We use these to style anchors
+$anchor-font-color: $notwhite;
+$anchor-font-color-hover: scale-color($notwhite, $lightness: -30%);
+

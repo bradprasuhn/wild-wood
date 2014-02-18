@@ -1,0 +1,74 @@
+@import
+  "normalize.scss",
+  "variables.scss",
+  url(http://fonts.googleapis.com/css?family=Gudea),
+  "foundation/settings",
+  "oversettings",
+  "foundation.scss";
+
+body {
+  background: url(../img/wood-1.jpg) repeat;
+}
+nav.nav {
+  text-align:center;
+}
+nav.nav ul {
+  display:inline-block;
+}
+#logo {
+  padding:0 0 3% 0;
+}
+
+.nav {
+  width: 100%;
+  ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    li {
+      display: inline-block;
+      a {
+        display: block;
+        padding: 5px 20px;
+        text-decoration: none;
+        color:$bravo-red;
+        &:hover {
+          color:$dkgray;
+        }
+      }
+    }
+  }
+
+}
+@media only screen and (max-width: 480px){ 
+  nav {
+  padding-bottom:8%;
+  }
+  .nav ul { 
+    width: 100%; 
+    font-weight: normal;
+    li { 
+      width: 50%;
+      float: left;
+      text-align: center;
+        a {
+          padding: 12px 0px;
+          display: block;
+        }
+      &:last-of-type {
+        width:100%;
+      }
+    }
+  }
+}
+.bio {
+  @include block-grid(
+    // This controls how many elements will be on each row of the block grid. Set this to whatever number you need, up to the max allowed in the variable.
+    // This controls how much space is between each item in the block grid.
+    // Use a variable or any pixel or em values.
+    $spacing: 0
+  );
+}
+#opening {
+  padding:1% 0 5% 0;
+}
