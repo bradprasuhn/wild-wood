@@ -1,7 +1,18 @@
-<?php
-$title = 'Wild Wood Creations';
-include('inc/header.php');
-?>
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name="description" content="Wild Wood Creations is where your dreams of beautiful furniture and home decore begin. We specialize in log, rustic, and western themes.">
+<meta name="keywords" content="Wild Wood, Custom Woodwork">
+<meta name="author" content="Prasuhn Design LLC">
+<title>Wild Wood Creations</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/magnific-popup.css">
+<link rel="stylesheet" href="css/foundation-icons.css">
+<script src="js/vendor/custom.modernizr.js"></script>
+</head>
 <body>
 <div id="opening">
   <div class="row">
@@ -9,9 +20,18 @@ include('inc/header.php');
   		<img src="img/logo.png" />
   	</div>
   </div>
-
-<?php include('inc/top-nav.php'); ?>
-
+  <div class="row">
+    <div class="small-12 columns">
+      <nav class="nav">
+        <ul>
+          <li><a href="index.php">About Us</a></li>
+          <li><a href="about.php">Portfolio</a></li>
+          <li><a href="about.php">For Sale</a></li>
+          <li><a href="contact.php">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
 </div><!-- Closes Opening -->
 <div class="row">
   <div class="small-12 columns">
