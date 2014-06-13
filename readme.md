@@ -30,7 +30,8 @@ Somethings to remember/note about this code
 
 1. Include all of the files in all the right places, probably common.xsl.
 2. Double check your paths to all files, even images before you say its broken.
-3. Don't forget to include profile-xml.xsl in your individual profile pcf as well as your listing page pcf, like so ```
+3. Don't forget to include profile-xml.xsl in your individual profile pcf as well as your listing page pcf, like so
+```
 <?pcf-stylesheet path="/_resources/xsl/profiles/profile-xml.xsl" alternate="yes" extension="xml"?>
 ```
 4. Don't forget to update the helper.xsl on line 21 with you server side scripting language.
