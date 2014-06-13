@@ -41,5 +41,5 @@ Somethings to remember/note about this code
 
 #### jQuery dataTables
 
-*[https://datatables.net/](https://datatables.net/)
-*[https://github.com/DataTables/DataTables](https://github.com/DataTables/DataTables)
+* [https://datatables.net/](https://datatables.net/)
+* [https://github.com/DataTables/DataTables](https://github.com/DataTables/DataTables)
